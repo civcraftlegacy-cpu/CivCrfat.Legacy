@@ -1,0 +1,1829 @@
+[
+    {
+        "nombre": "Año 0",
+        "dinero": 67310.0,
+        "año": 790,
+        "recursos": {
+            "comida": 17920,
+            "agua": -500,
+            "electricidad": -1000
+        },
+        "poblacion": [
+            {
+                "nombre": "Nuria Carmona",
+                "edad": 47,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Juan Antonio Iglesias",
+                "edad": 28,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Jorge Fernandez",
+                "edad": 40,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Maria Dolores Santos",
+                "edad": 42,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Maria Luisa Roman",
+                "edad": 40,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Pedro Dominguez",
+                "edad": 23,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Santiago Reyes",
+                "edad": 22,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Ana Maria Iglesias",
+                "edad": 53,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Juan Gil",
+                "edad": 41,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Silvia Ruiz",
+                "edad": 25,
+                "salud": 20,
+                "felicidad": 72,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Vicente Arias",
+                "edad": 23,
+                "salud": 20,
+                "felicidad": 60,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Rosa Maria Santos",
+                "edad": 44,
+                "salud": 20,
+                "felicidad": 60,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Oscar Castillo",
+                "edad": 53,
+                "salud": 20,
+                "felicidad": 60,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Maria Dolores Diaz",
+                "edad": 29,
+                "salud": 20,
+                "felicidad": 60,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Dolores Montero",
+                "edad": 39,
+                "salud": 20,
+                "felicidad": 60,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Jose Ramirez",
+                "edad": 30,
+                "salud": 40,
+                "felicidad": 65,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Miguel Angel Gallego",
+                "edad": 25,
+                "salud": 40,
+                "felicidad": 65,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Lucia Fuentes",
+                "edad": 41,
+                "salud": 40,
+                "felicidad": 65,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Ana Maria Vega",
+                "edad": 26,
+                "salud": 40,
+                "felicidad": 65,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Martin Campos",
+                "edad": 40,
+                "salud": 40,
+                "felicidad": 65,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Marta Marquez",
+                "edad": 38,
+                "salud": 40,
+                "felicidad": 65,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Ainhoa Gallego",
+                "edad": 33,
+                "salud": 40,
+                "felicidad": 74,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Nuria Cabrera",
+                "edad": 51,
+                "salud": 40,
+                "felicidad": 74,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Gonzalo Alonso",
+                "edad": 40,
+                "salud": 40,
+                "felicidad": 74,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Marcos Morales",
+                "edad": 40,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Claudia Vega",
+                "edad": 50,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Cristina Vega",
+                "edad": 35,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Maria Angeles Gallardo",
+                "edad": 50,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Angel Alvarez",
+                "edad": 32,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Encarnacion Cruz",
+                "edad": 27,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Valeria Cano",
+                "edad": 32,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Francisco Pastor",
+                "edad": 38,
+                "salud": 60,
+                "felicidad": 76,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Vicente Campos",
+                "edad": 47,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Marcos Navarro",
+                "edad": 26,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Alejandro Vicente",
+                "edad": 22,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Juana Martinez",
+                "edad": 39,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Diego Crespo",
+                "edad": 51,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Antonio Mora",
+                "edad": 41,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Sara Vargas",
+                "edad": 26,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Teresa Crespo",
+                "edad": 46,
+                "salud": 80,
+                "felicidad": 78,
+                "tiene_casa": true,
+                "tiene_empleo": true,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Pilar Reyes",
+                "edad": 42,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Marta Ruiz",
+                "edad": 39,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Adrian Gimenez",
+                "edad": 50,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Rosario Aguilar",
+                "edad": 42,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Silvia Nuñez",
+                "edad": 39,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Maria Isabel Castillo",
+                "edad": 21,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Maria Sanz",
+                "edad": 22,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Juan Jose Perez",
+                "edad": 28,
+                "salud": 100,
+                "felicidad": 80,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            }
+        ],
+        "edificios": [
+            {
+                "id_edificio": "2d541632-7701-4da2-bc56-b1955b3690bb",
+                "nombre": "Casa",
+                "x": 538,
+                "y": 95,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "3a6c1e06-0c4e-45f8-ae12-778829354c3e",
+                "nombre": "Granja",
+                "x": 336,
+                "y": 293,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "36abc1cf-274e-4b2c-8e27-878acf4916ce",
+                "nombre": "Granja",
+                "x": 225,
+                "y": 186,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "a58e1950-d18e-4716-b1cc-02321c8ab76d",
+                "nombre": "Planta Agua",
+                "x": 192,
+                "y": 86,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "74df42b8-bb8d-40f4-bf67-fc7b63e64ad4",
+                "nombre": "Casa",
+                "x": 423,
+                "y": 100,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "3e366735-9186-4686-8ef8-835e24bc1b17",
+                "nombre": "Casa",
+                "x": 151,
+                "y": 172,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "11d235ab-5ba7-4208-ba48-11a0c1e86d96",
+                "nombre": "Casa",
+                "x": 129,
+                "y": 175,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "b6a86741-ed36-47c7-b99c-75ba6f9ac012",
+                "nombre": "Casa",
+                "x": 281,
+                "y": 296,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "107699d1-1385-4702-8956-108b775f3252",
+                "nombre": "Casa",
+                "x": 521,
+                "y": 255,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "07820188-da9d-44fb-b42d-81521617e391",
+                "nombre": "Casa",
+                "x": 64,
+                "y": 52,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "fd6cf389-6813-4770-94ba-6b0c00080fe1",
+                "nombre": "Central Elec.",
+                "x": 532,
+                "y": 41,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "c6c8632b-105d-42e6-afcc-04c70d7ec03a",
+                "nombre": "Planta Agua",
+                "x": 562,
+                "y": 292,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "b156a199-3020-4f03-8991-1040f8018413",
+                "nombre": "Central Elec.",
+                "x": 51,
+                "y": 42,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "f3585b7b-61d8-4ad5-a5fa-925fc6e35fbc",
+                "nombre": "Almacen de Energia",
+                "x": 550,
+                "y": 146,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "f5e5a0e1-a578-4c58-801d-b82a32b1fdb6",
+                "nombre": "Almacen de Comida",
+                "x": 187,
+                "y": 82,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "611ec439-937d-4b4f-97cd-909d241c01f1",
+                "nombre": "Almacen de Agua",
+                "x": 506,
+                "y": 189,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "99406980-72d8-4260-97d4-296d57fdc046",
+                "nombre": "Casa",
+                "x": 219,
+                "y": 230,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "87555331-4a2b-4770-9b45-853890f86337",
+                "nombre": "Casa",
+                "x": 279,
+                "y": 3,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "a5157da1-7977-4472-9492-e991b7b8989c",
+                "nombre": "Casa",
+                "x": 255,
+                "y": 170,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "b853a582-4dbf-40e3-aa08-1e74a8755dc5",
+                "nombre": "Central Elec.",
+                "x": 195,
+                "y": 216,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "83711673-6f07-4b64-b1c8-5010eca46339",
+                "nombre": "Central Elec.",
+                "x": 152,
+                "y": 7,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "0fd17334-802a-4033-8de3-f2e82810a88d",
+                "nombre": "Planta Agua",
+                "x": 427,
+                "y": 165,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "e8cbb8d0-dcd9-47cb-ab02-6b31371a2a61",
+                "nombre": "Casa",
+                "x": 215,
+                "y": 17,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "8c115e8b-8551-4ac2-a350-e93624d96f07",
+                "nombre": "Casa",
+                "x": 1,
+                "y": 76,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "03de4c36-ce8e-4beb-82ac-62652264011f",
+                "nombre": "Casa",
+                "x": 503,
+                "y": 270,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "7b5bee75-682e-478e-97f4-c2d79062830b",
+                "nombre": "Casa",
+                "x": 547,
+                "y": 211,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "30b09abc-faab-4ebd-bbf5-073b7fe70388",
+                "nombre": "Casa",
+                "x": 560,
+                "y": 22,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "48e51594-db6b-4b3b-8bf3-ad3bce6a01f1",
+                "nombre": "Casa",
+                "x": 383,
+                "y": 182,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "350ceeee-8782-471e-aec7-3889cdafc677",
+                "nombre": "Casa",
+                "x": 531,
+                "y": 211,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "9a306c6e-4d42-4a93-931c-23f70514370f",
+                "nombre": "Casa",
+                "x": 329,
+                "y": 50,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "df6bc713-77d9-4549-9201-07fe4d333d37",
+                "nombre": "Casa",
+                "x": 459,
+                "y": 260,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "96cb9e1f-8cf1-4474-8498-33db4aa8a996",
+                "nombre": "Casa",
+                "x": 482,
+                "y": 92,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "b2a551e2-c979-4b5e-b79e-61971f74fddf",
+                "nombre": "Casa",
+                "x": 345,
+                "y": 72,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "207583ec-05d9-40d2-97fa-bc7cc1557c94",
+                "nombre": "Casa",
+                "x": 399,
+                "y": 293,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "ec2acb8d-5a1d-4e82-b93a-eda210820381",
+                "nombre": "Casa",
+                "x": 372,
+                "y": 20,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "6271f6b7-7190-4543-a25d-f8ea1b1cba69",
+                "nombre": "Casa",
+                "x": 466,
+                "y": 225,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "e63a98fe-cba4-40f1-8538-70e75249ea61",
+                "nombre": "Casa",
+                "x": 407,
+                "y": 105,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "6455d2c8-85dc-470b-8d45-8e7b0a2a75b5",
+                "nombre": "Casa",
+                "x": 289,
+                "y": 50,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "f979f8ac-67d2-4f88-82b0-b69cb2a314bf",
+                "nombre": "Casa",
+                "x": 330,
+                "y": 218,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "9f347586-bd38-4423-bf35-e4fced058543",
+                "nombre": "Casa",
+                "x": 537,
+                "y": 60,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "5d05dd9f-6566-477b-a6f1-a1f0c7c950fc",
+                "nombre": "Casa",
+                "x": 173,
+                "y": 25,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "0b70b2cb-d68f-421e-adbc-54e5dd3a818b",
+                "nombre": "Casa",
+                "x": 123,
+                "y": 146,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "b853ef4b-c6b9-4227-93d2-d1f20366be22",
+                "nombre": "Granja",
+                "x": 373,
+                "y": 60,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "fc03a115-57f6-4e8e-a658-cff5040f5fba",
+                "nombre": "Granja",
+                "x": 221,
+                "y": 91,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "2b4948d7-354d-4b69-b80a-778a6b487ece",
+                "nombre": "Granja",
+                "x": 144,
+                "y": 19,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "a68a1eac-c614-4085-a04d-28a9c4742c75",
+                "nombre": "Granja",
+                "x": 423,
+                "y": 138,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "3f8f0cb9-fedb-44ba-9337-27c223c4e822",
+                "nombre": "Granja",
+                "x": 276,
+                "y": 270,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "d2ebffe9-81dd-493c-9453-fe3c38ce2fcc",
+                "nombre": "Almacen de Comida",
+                "x": 497,
+                "y": 162,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "fab9829b-a8d8-4d93-a016-13d4ca83777e",
+                "nombre": "Almacen de Comida",
+                "x": 566,
+                "y": 130,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "f29e3c88-6b9f-46fc-b199-2a6f8fd23da2",
+                "nombre": "Almacen de Comida",
+                "x": 504,
+                "y": 49,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "6ca9e500-2bea-4255-8681-6290502c0f03",
+                "nombre": "Almacen de Comida",
+                "x": 557,
+                "y": 72,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "9eba32a6-b63b-484d-b409-753ea4ca6e23",
+                "nombre": "Almacen de Comida",
+                "x": 309,
+                "y": 242,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "0de5ad59-fb5c-4b57-9791-95c493f67312",
+                "nombre": "Central Elec.",
+                "x": 228,
+                "y": 186,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "597dd1fa-a8e1-4af5-88a2-14614c7facae",
+                "nombre": "Central Elec.",
+                "x": 263,
+                "y": 106,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "6d855d82-d9af-4787-a721-0a444e4830ab",
+                "nombre": "Central Elec.",
+                "x": 139,
+                "y": 122,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "de9b062b-1d21-4a3b-819d-3022847b06e5",
+                "nombre": "Central Elec.",
+                "x": 263,
+                "y": 67,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "22daf865-5004-45a9-a88f-aba3c9ab40e0",
+                "nombre": "Central Elec.",
+                "x": 49,
+                "y": 156,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "6cb97d18-44fb-48f4-9afb-cd10ad9013f9",
+                "nombre": "Central Elec.",
+                "x": 156,
+                "y": 291,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "c4f87f24-77c3-4430-8ee8-38ade547b05a",
+                "nombre": "Central Elec.",
+                "x": 511,
+                "y": 99,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "a86207f8-1c46-4a6e-82a0-4c3bfcbf6d68",
+                "nombre": "Central Elec.",
+                "x": 269,
+                "y": 190,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "35571da9-8423-4ce0-8db9-09f8f3fd032f",
+                "nombre": "Central Elec.",
+                "x": 44,
+                "y": 117,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "d8bb9297-e689-4128-a633-0300da929e0d",
+                "nombre": "Central Elec.",
+                "x": 76,
+                "y": 88,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "a774020d-918b-497d-8c29-0294eae9f6c8",
+                "nombre": "Almacen de Energia",
+                "x": 311,
+                "y": 29,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "0fbbfc17-febb-470f-b4d5-7d9de62b7982",
+                "nombre": "Almacen de Energia",
+                "x": 266,
+                "y": 60,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "f284bf67-db3b-4aac-80d4-91919edde427",
+                "nombre": "Almacen de Energia",
+                "x": 558,
+                "y": 226,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "afb8df88-ec6f-485b-9317-1310ae0c69a6",
+                "nombre": "Almacen de Energia",
+                "x": 254,
+                "y": 167,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "7bf087be-2998-4eef-b937-0c065230aef0",
+                "nombre": "Almacen de Energia",
+                "x": 255,
+                "y": 116,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "41091179-7fc6-4946-8a12-1f906f416991",
+                "nombre": "Planta Agua",
+                "x": 386,
+                "y": 118,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "e8713666-2fbd-4453-a786-ef35475bf354",
+                "nombre": "Planta Agua",
+                "x": 207,
+                "y": 100,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "6a6ad5d4-54c6-40a3-aeda-b21925b4bfaa",
+                "nombre": "Planta Agua",
+                "x": 318,
+                "y": 115,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "0b8cf553-7f09-49b2-b983-b9199083adc4",
+                "nombre": "Almacen de Agua",
+                "x": 273,
+                "y": 62,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "d5879c68-b1d4-49c8-aa78-c110c019dde2",
+                "nombre": "Almacen de Agua",
+                "x": 454,
+                "y": 136,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "a6ae9da2-59f3-472c-848f-6244f424805b",
+                "nombre": "Almacen de Agua",
+                "x": 450,
+                "y": 205,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "dec04c37-cfa4-4aef-a95b-e7076d4f6028",
+                "nombre": "Casa",
+                "x": 464,
+                "y": 122,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "e77847b7-db91-473e-929b-1bf822e52117",
+                "nombre": "Casa",
+                "x": 176,
+                "y": 188,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "8c4e5c2d-8fa7-46cf-9b11-be317b5eb1c7",
+                "nombre": "Casa",
+                "x": 401,
+                "y": 8,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "7bf42e26-23f2-43d4-9a79-17682322a68c",
+                "nombre": "Casa",
+                "x": 573,
+                "y": 238,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "e7381adc-fb6d-416b-9aea-b8380b671309",
+                "nombre": "Casa",
+                "x": 552,
+                "y": 138,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "e505900d-37e1-4ddc-abb3-8e6e15135dcf",
+                "nombre": "Casa",
+                "x": 421,
+                "y": 291,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "37851bec-2004-40a3-a342-c3452f050cb9",
+                "nombre": "Casa",
+                "x": 312,
+                "y": 19,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "e5b33a76-a312-4a0c-8b88-7dc3a0d4d529",
+                "nombre": "Casa",
+                "x": 475,
+                "y": 167,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "51ba1d8a-2e47-43f8-ae0a-2fecb8f48b5d",
+                "nombre": "Casa",
+                "x": 250,
+                "y": 297,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "2b1f2ede-589e-4338-bb06-647de6d60f13",
+                "nombre": "Casa",
+                "x": 190,
+                "y": 186,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "6ffe3dc4-9023-4fa6-b2a9-e00b5be6aa8d",
+                "nombre": "Casa",
+                "x": 549,
+                "y": 256,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "74cf28a5-b486-4dc3-b66e-c659e4681259",
+                "nombre": "Casa",
+                "x": 36,
+                "y": 40,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "6baa12b5-7124-4a45-a890-035c33503d7f",
+                "nombre": "Casa",
+                "x": 478,
+                "y": 129,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "5e80babb-dba2-447b-ba38-7be71985ba89",
+                "nombre": "Casa",
+                "x": 543,
+                "y": 133,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "6bc1280f-6fe5-4435-b674-8834f9e493eb",
+                "nombre": "Casa",
+                "x": 270,
+                "y": 145,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "9427b3e1-8b28-447f-8c7c-e26f83a94180",
+                "nombre": "Casa",
+                "x": 516,
+                "y": 232,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "30bf1d6c-049a-4e8a-af92-965e8b0997b8",
+                "nombre": "Casa",
+                "x": 568,
+                "y": 47,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "1b741d4b-13f9-46f6-ab8d-08f3fd761e8e",
+                "nombre": "Casa",
+                "x": 210,
+                "y": 76,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "939bf146-d6a2-4e77-a24c-98d08760c246",
+                "nombre": "Casa",
+                "x": 338,
+                "y": 79,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "425d5045-c55d-444b-8b86-35a37c5228ac",
+                "nombre": "Casa",
+                "x": 406,
+                "y": 137,
+                "capacidad_max_vivienda": 5
+            },
+            {
+                "id_edificio": "d1b107fa-bfe0-4030-8c03-81168d4f6c4d",
+                "nombre": "Planta Agua",
+                "x": 230,
+                "y": 104,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "038ecea2-f648-4fc2-9e12-15e4cccb4feb",
+                "nombre": "Planta Agua",
+                "x": 473,
+                "y": 264,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "cd2a9b3e-994b-4ce1-9bcc-aa8f197d849c",
+                "nombre": "Planta Agua",
+                "x": 116,
+                "y": 58,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "b1a2f755-7e6f-4885-a4ab-ff316b9f1172",
+                "nombre": "Planta Agua",
+                "x": 531,
+                "y": 127,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "9856c226-fc8e-4ab4-a105-f1b382eb25aa",
+                "nombre": "Planta Agua",
+                "x": 249,
+                "y": 83,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "6f0ca070-fbb8-4d0d-81f8-7abad0bb88e8",
+                "nombre": "Almacen de Agua",
+                "x": 554,
+                "y": 42,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "13866e8a-5569-4718-b53b-c073e962a08f",
+                "nombre": "Almacen de Agua",
+                "x": 156,
+                "y": 78,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "14b051d1-39e8-4977-9564-08afd89671fb",
+                "nombre": "Almacen de Agua",
+                "x": 574,
+                "y": 260,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "3bcc8cd4-60c3-4fcb-9c8d-190234804cc0",
+                "nombre": "Almacen de Comida",
+                "x": 568,
+                "y": 223,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "659a27ba-1acb-413d-be85-e9cd855cee6b",
+                "nombre": "Almacen de Comida",
+                "x": 226,
+                "y": 99,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "9af85c76-74d8-449e-80fa-626451d863c1",
+                "nombre": "Almacen de Comida",
+                "x": 489,
+                "y": 293,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "516aa347-1d72-46bd-a29a-516a076c9eb9",
+                "nombre": "Bloque Pisos",
+                "x": 557,
+                "y": 52,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "4e01eef8-9a36-45d8-90fa-aa85fa84d267",
+                "nombre": "Bloque Pisos",
+                "x": 178,
+                "y": 289,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "18efaed4-e875-44cd-b392-fd485eb960ae",
+                "nombre": "Bloque Pisos",
+                "x": 319,
+                "y": 0,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "5fb497fa-0d41-4731-925a-3b5cb8b7acce",
+                "nombre": "Bloque Pisos",
+                "x": 190,
+                "y": 51,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "3f0de19e-75bb-495f-b305-3e65f94d28c8",
+                "nombre": "Bloque Pisos",
+                "x": 357,
+                "y": 61,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "f74f3d2e-3cd7-430f-a719-5723cfb62602",
+                "nombre": "Bloque Pisos",
+                "x": 329,
+                "y": 223,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "465b63c5-e7bb-41e6-83d1-3c81d7524a96",
+                "nombre": "Bloque Pisos",
+                "x": 142,
+                "y": 101,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "2ad20eca-febf-470b-b454-c19b9d72637f",
+                "nombre": "Bloque Pisos",
+                "x": 107,
+                "y": 88,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "c3be0054-e1a6-47f8-82d7-27185ab097a6",
+                "nombre": "Bloque Pisos",
+                "x": 533,
+                "y": 164,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "2129f7e9-2044-412c-b9d2-e182237a792d",
+                "nombre": "Bloque Pisos",
+                "x": 115,
+                "y": 296,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "dbb629f8-3af6-4514-968d-003e672ddde4",
+                "nombre": "Bloque Pisos",
+                "x": 63,
+                "y": 82,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "0c754534-452e-4c62-808a-a62dd150c0f5",
+                "nombre": "Bloque Pisos",
+                "x": 407,
+                "y": 110,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "424796b8-242b-4166-9120-137ef7c59582",
+                "nombre": "Bloque Pisos",
+                "x": 497,
+                "y": 104,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "03664eb9-22ad-4ebf-9557-ceaf784baf68",
+                "nombre": "Bloque Pisos",
+                "x": 93,
+                "y": 40,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "68e150b3-285a-49ab-9e8f-433d327a36d5",
+                "nombre": "Bloque Pisos",
+                "x": 41,
+                "y": 85,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "40a36cfb-d40c-4802-a310-4e1493d12617",
+                "nombre": "Bloque Pisos",
+                "x": 233,
+                "y": 233,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "cde9b774-f767-475b-8e8f-d8eed60f26f3",
+                "nombre": "Bloque Pisos",
+                "x": 35,
+                "y": 122,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "949ed3f7-8d84-4fdc-aebd-a13d9f5ee3ba",
+                "nombre": "Bloque Pisos",
+                "x": 109,
+                "y": 139,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "02fd4ffc-89f5-4bf4-ab69-d3a6f6b39c83",
+                "nombre": "Bloque Pisos",
+                "x": 40,
+                "y": 45,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "870f5021-4e5f-4d11-be0a-79d37252b2cd",
+                "nombre": "Bloque Pisos",
+                "x": 146,
+                "y": 183,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "0e5d0936-441a-4b59-87a8-b4038962cd7e",
+                "nombre": "Bloque Pisos",
+                "x": 457,
+                "y": 125,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "8f72bc89-3bcf-42dd-b204-3df0fc831b0e",
+                "nombre": "Bloque Pisos",
+                "x": 38,
+                "y": 232,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "3c992a7b-94d2-4f0d-bcab-f2a676084e34",
+                "nombre": "Bloque Pisos",
+                "x": 32,
+                "y": 179,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "d537d14f-4844-49fb-8c96-75d5aa1031be",
+                "nombre": "Bloque Pisos",
+                "x": 493,
+                "y": 160,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "460dd07d-9c4b-4a0e-9d25-d1db02dbc7a5",
+                "nombre": "Bloque Pisos",
+                "x": 333,
+                "y": 260,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "5c444147-e782-4925-9ca4-2b70c4e008ab",
+                "nombre": "Bloque Pisos",
+                "x": 304,
+                "y": 127,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "bfb178e2-8092-44d1-b33e-e015d521dd24",
+                "nombre": "Bloque Pisos",
+                "x": 369,
+                "y": 160,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "c6692be9-41ee-4277-9a04-a0238fe61693",
+                "nombre": "Bloque Pisos",
+                "x": 520,
+                "y": 209,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "414331f4-ea67-4db5-8b68-01d64352d6a9",
+                "nombre": "Bloque Pisos",
+                "x": 245,
+                "y": 138,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "b6fe12d5-6084-4ffe-a5b9-52da9c01e7dc",
+                "nombre": "Bloque Pisos",
+                "x": 537,
+                "y": 54,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "c17e20e9-4c01-41e1-9093-59a7f990dc6c",
+                "nombre": "Bloque Pisos",
+                "x": 427,
+                "y": 6,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "482cb8c4-5d4e-469c-b02a-5c955cec7fe3",
+                "nombre": "Bloque Pisos",
+                "x": 72,
+                "y": 293,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "e1334c33-dc84-48b9-98dd-23adef45ce1e",
+                "nombre": "Bloque Pisos",
+                "x": 148,
+                "y": 58,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "c2ed7cf7-7e00-4d81-8305-8aa809ba8b37",
+                "nombre": "Bloque Pisos",
+                "x": 195,
+                "y": 119,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "e07b88cb-fdf5-4f24-b1b2-9d99ca21ef58",
+                "nombre": "Bloque Pisos",
+                "x": 241,
+                "y": 180,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "1ce43c5c-bbcd-430c-a12e-e0dcb0973344",
+                "nombre": "Bloque Pisos",
+                "x": 132,
+                "y": 198,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "361c7d85-56e6-47b4-9b00-cc75da241560",
+                "nombre": "Bloque Pisos",
+                "x": 208,
+                "y": 95,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "3077b409-9dd5-411a-ae75-423bce134ef6",
+                "nombre": "Bloque Pisos",
+                "x": 312,
+                "y": 166,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "7f1bf41c-8e93-4ea4-b8b5-45e21f2ae81b",
+                "nombre": "Bloque Pisos",
+                "x": 30,
+                "y": 72,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "0e3d7c81-d128-4e70-99c7-2e43a90b2f1e",
+                "nombre": "Bloque Pisos",
+                "x": 343,
+                "y": 53,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "fe2b0640-4dfe-4f0c-a5f1-9373cb6c81ca",
+                "nombre": "Bloque Pisos",
+                "x": 270,
+                "y": 198,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "6a6866eb-9ae1-4501-87d3-58f6389321b8",
+                "nombre": "Bloque Pisos",
+                "x": 126,
+                "y": 217,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "a2f57744-fe36-4602-9ba4-e747ef759854",
+                "nombre": "Bloque Pisos",
+                "x": 485,
+                "y": 40,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "53664327-a2c6-4b9d-9f4f-d1ad28c22445",
+                "nombre": "Bloque Pisos",
+                "x": 516,
+                "y": 47,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "596baec2-569a-4775-a166-a4be65370f2d",
+                "nombre": "Bloque Pisos",
+                "x": 63,
+                "y": 136,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "97466948-7bdf-427f-962f-4621ed90be00",
+                "nombre": "Bloque Pisos",
+                "x": 406,
+                "y": 205,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "72906953-9338-4380-b35a-77886959ede7",
+                "nombre": "Bloque Pisos",
+                "x": 426,
+                "y": 177,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "dce6e3d7-1f12-4b58-8c8f-f2de64dd525a",
+                "nombre": "Bloque Pisos",
+                "x": 20,
+                "y": 163,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "fe7f711b-2bd4-4b03-93b7-da3a7f09d81d",
+                "nombre": "Bloque Pisos",
+                "x": 496,
+                "y": 237,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "63ee0944-7b01-44c5-b83d-9be82c4587d1",
+                "nombre": "Bloque Pisos",
+                "x": 80,
+                "y": 241,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "ab07097d-e547-4ac1-ae26-594bfd922eaf",
+                "nombre": "Bloque Pisos",
+                "x": 154,
+                "y": 262,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "7d395f36-be7b-4266-80c8-97e8d95fc502",
+                "nombre": "Bloque Pisos",
+                "x": 509,
+                "y": 200,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "fc98a68e-3f81-4c33-bda6-8925db1b8859",
+                "nombre": "Bloque Pisos",
+                "x": 536,
+                "y": 223,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "cf7b662f-736e-470c-b984-b1873046be09",
+                "nombre": "Bloque Pisos",
+                "x": 464,
+                "y": 261,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "563cea13-f624-4cf0-8961-ddfd66da2363",
+                "nombre": "Bloque Pisos",
+                "x": 348,
+                "y": 201,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "d730ed85-42ae-440e-9891-f80cb4ba55e9",
+                "nombre": "Bloque Pisos",
+                "x": 384,
+                "y": 243,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "1b7cd082-4c92-4fe7-af58-36e62d0d244e",
+                "nombre": "Bloque Pisos",
+                "x": 367,
+                "y": 90,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "d4ab1192-aff9-4091-bc2e-50ef217b79f5",
+                "nombre": "Bloque Pisos",
+                "x": 456,
+                "y": 233,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "4d8f0ae0-8445-4045-a2df-e15fba7af6d3",
+                "nombre": "Bloque Pisos",
+                "x": 335,
+                "y": 136,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "7f3f9d59-2f6c-4330-8a67-174372b17da1",
+                "nombre": "Bloque Pisos",
+                "x": 419,
+                "y": 107,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "a63963b7-93c6-4e2f-a790-022990e3a015",
+                "nombre": "Bloque Pisos",
+                "x": 110,
+                "y": 27,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "970dfc3c-4bd9-40b2-a99f-ba40168a42f5",
+                "nombre": "Bloque Pisos",
+                "x": 433,
+                "y": 257,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "3b4f9199-047e-424b-9b4f-837eb8800ba1",
+                "nombre": "Bloque Pisos",
+                "x": 247,
+                "y": 70,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "e0ce3a98-6b03-48f3-a82a-0272647921ae",
+                "nombre": "Bloque Pisos",
+                "x": 17,
+                "y": 176,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "b3fc06b9-ad1b-4ca4-bba0-99f33eda0a6a",
+                "nombre": "Bloque Pisos",
+                "x": 515,
+                "y": 64,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "781e7ef7-5a50-428f-bad4-fc9fbc9ccf8a",
+                "nombre": "Bloque Pisos",
+                "x": 132,
+                "y": 182,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "8e382800-8691-4dfc-bace-e902e99d9c10",
+                "nombre": "Bloque Pisos",
+                "x": 537,
+                "y": 157,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "d0506235-859a-4e36-bb7d-ee51ab2997a7",
+                "nombre": "Bloque Pisos",
+                "x": 445,
+                "y": 82,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "c658cff3-91bd-492c-b43d-b4290b727e4b",
+                "nombre": "Bloque Pisos",
+                "x": 426,
+                "y": 30,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "ab3b3f18-8f26-4d6f-bd74-a91d96be033d",
+                "nombre": "Bloque Pisos",
+                "x": 428,
+                "y": 117,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "a381e45e-100c-4f2b-9621-7eec23de0508",
+                "nombre": "Bloque Pisos",
+                "x": 313,
+                "y": 264,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "e06104d7-c3b5-4701-9426-559f337af44f",
+                "nombre": "Bloque Pisos",
+                "x": 139,
+                "y": 42,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "182e26b7-17c5-4ead-9050-0e32f4731f5b",
+                "nombre": "Bloque Pisos",
+                "x": 77,
+                "y": 183,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "4072b59c-bf2a-46e1-8aed-3c9c3adbea7a",
+                "nombre": "Bloque Pisos",
+                "x": 193,
+                "y": 212,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "7cefd1ef-fd72-46d5-be02-e1f0c4d2d424",
+                "nombre": "Bloque Pisos",
+                "x": 440,
+                "y": 84,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "e85ea823-9c38-4c2e-8cf5-e3553062bfb2",
+                "nombre": "Bloque Pisos",
+                "x": 4,
+                "y": 117,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "5390bc53-3e76-4a6f-9232-9c42283bce24",
+                "nombre": "Bloque Pisos",
+                "x": 263,
+                "y": 146,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "d6673cd3-8969-4bff-a360-5554a115f33a",
+                "nombre": "Bloque Pisos",
+                "x": 566,
+                "y": 81,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "acb74042-be35-498a-a86f-5f10bec9b8dd",
+                "nombre": "Bloque Pisos",
+                "x": 379,
+                "y": 252,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "13d08bc1-7c53-4919-b514-a721dde46f15",
+                "nombre": "Bloque Pisos",
+                "x": 519,
+                "y": 30,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "7f268edd-740b-4419-ac73-f614c632690c",
+                "nombre": "Bloque Pisos",
+                "x": 219,
+                "y": 234,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "752442df-9a4a-4048-9e56-b4afc3d25195",
+                "nombre": "Bloque Pisos",
+                "x": 394,
+                "y": 219,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "c6515bff-722e-48dc-a450-0c45428c581a",
+                "nombre": "Bloque Pisos",
+                "x": 335,
+                "y": 40,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "481718ef-f6c0-4006-8759-96bb78555b76",
+                "nombre": "Bloque Pisos",
+                "x": 98,
+                "y": 162,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "5ae8ec57-49e9-47b7-89af-e457daedb032",
+                "nombre": "Bloque Pisos",
+                "x": 323,
+                "y": 194,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "4401dbdb-5dbb-4cc2-a10f-f5756b0b0666",
+                "nombre": "Bloque Pisos",
+                "x": 357,
+                "y": 293,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "b8c36540-d481-445f-9aaa-a67d83b0e35b",
+                "nombre": "Bloque Pisos",
+                "x": 191,
+                "y": 97,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "ed8492b8-5efd-4cb1-bd5a-769444fe1d50",
+                "nombre": "Bloque Pisos",
+                "x": 425,
+                "y": 225,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "ca7bc128-cee3-444e-80b3-62694c43154c",
+                "nombre": "Bloque Pisos",
+                "x": 400,
+                "y": 218,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "2dea4842-b8c5-4b4c-b233-83b5171b18d4",
+                "nombre": "Bloque Pisos",
+                "x": 293,
+                "y": 51,
+                "capacidad_max_vivienda": 20
+            },
+            {
+                "id_edificio": "e86957ec-2756-41fb-91b0-df548200412e",
+                "nombre": "Planta Agua",
+                "x": 353,
+                "y": 261,
+                "capacidad_max_vivienda": 0
+            },
+            {
+                "id_edificio": "378f0262-9b24-495c-a51a-4e6e824fc178",
+                "nombre": "Planta Agua",
+                "x": 143,
+                "y": 85,
+                "capacidad_max_vivienda": 0
+            }
+        ],
+        "capacidad_max_poblacion": 2150,
+        "poblacion_inicial": 100,
+        "nivel_tecnologico": 2,
+        "investigaciones_completadas": [
+            "comida_2",
+            "energia_2",
+            "agua_2",
+            "alojamiento_2"
+        ]
+    }
+]

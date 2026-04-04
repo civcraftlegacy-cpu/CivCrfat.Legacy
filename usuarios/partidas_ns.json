@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Año 0",
+        "dinero": 129700.0,
+        "año": 100,
+        "recursos": {
+            "comida": 80,
+            "agua": 100,
+            "electricidad": 120
+        },
+        "poblacion": [
+            {
+                "nombre": "Mercedes Moya",
+                "edad": 43,
+                "salud": 28,
+                "felicidad": 54,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            },
+            {
+                "nombre": "Leo Arias",
+                "edad": 41,
+                "salud": 64,
+                "felicidad": 67,
+                "tiene_casa": false,
+                "tiene_empleo": false,
+                "rango_etario": "Adulto"
+            }
+        ],
+        "edificios": [],
+        "capacidad_max_poblacion": 2,
+        "poblacion_inicial": 2,
+        "nivel_tecnologico": 1,
+        "investigaciones_completadas": []
+    }
+]
