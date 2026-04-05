@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CivCraft Legacy</title>
-    <script src="https://pygame-web.github.io/cdn/0.9.3/browserfs.min.js"></script>
+
+    <!-- 1. Cargar BrowserFS BIEN -->
+    <script src="https://unpkg.com/browserfs" defer></script>
+
     <style>
         body {
             background-color: #000;
@@ -35,8 +38,8 @@
     <div id="status">Cargando CivCraft Legacy... (Haz clic aquí si tarda mucho)</div>
     <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="1"></canvas>
 
-    <script type="application/javascript">
-        // Configuración del juego
+    <!-- 2. Configuración -->
+    <script>
         window.config = {
             archive: "migranciudad.tar",
             fb_width: 1280,
@@ -47,8 +50,20 @@
             user_canvas_resizer: 1
         }
     </script>
-    <script src="https://pygame-web.github.io/cdn/0.9.3/pythons.js" type="module" id="site" data-python="python3.12"
-        data-os="vtx,snd,gui"></script>
+
+    <!-- 3. Cargar pygame-web DESPUÉS de todo -->
+    <script>
+        window.addEventListener("load", () => {
+            const script = document.createElement("script");
+            script.src = "https://pygame-web.github.io/cdn/0.9.3/pythons.js";
+            script.type = "module";
+            script.id = "site";
+            script.setAttribute("data-python", "python3.12");
+            script.setAttribute("data-os", "vtx,snd,gui");
+            document.body.appendChild(script);
+        });
+    </script>
+
 </body>
 
 </html>
