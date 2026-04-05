@@ -69,17 +69,11 @@
             fb_width: 1280,
             fb_height: 720,
             cdn: "https://pygame-web.github.io/cdn/0.9.3/",
-            autorun: 1,
+            autorun: 0,  // CAMBIAR A 0 - No auto-ejecutar sin archivo
             ume_block: 0,
-            user_canvas_resizer: 1,
+            user_canvas_resizer: 1
         };
     </script>
-    <script type="text/python">
-    import sys
-    sys.path.insert(0, '/')
-    exec(open('/main.py').read())
-    </script>
-
 
     <script id="start-logic">
         const statusDiv = document.getElementById('status');
@@ -89,17 +83,37 @@
             statusDiv.textContent = msg;
         }
 
-        document.getElementById('start-button').onclick = () => {
+        document.getElementById('start-button').onclick = async () => {
             document.getElementById('ui-layer').style.display = 'none';
             document.getElementById('canvas').style.display = 'block';
 
-            updateStatus("Cargando Pygame...");
-            const script = document.createElement('script');
-            script.type = 'module';
-            script.src = "https://pygame-web.github.io/cdn/0.9.3/pythons.js";
-            script.dataset.python = "python3.12";
-            script.dataset.os = "vtx,snd,gui";
-            document.body.appendChild(script);
+            updateStatus("Descargando juego...");
+
+            try {
+                // Descargar el tar
+                const tarResponse = await fetch("migranciudad.tar");
+                const tarBuffer = await tarResponse.arrayBuffer();
+
+                updateStatus("Montando archivo...");
+
+                // Guardar en variable global para que Pygame lo encuentre
+                window.gameArchive = new Uint8Array(tarBuffer);
+
+                updateStatus("Cargando Pygame...");
+
+                // Cargar Pygame Web
+                const script = document.createElement('script');
+                script.type = 'module';
+                script.src = "https://pygame-web.github.io/cdn/0.9.3/pythons.js";
+                script.dataset.python = "python3.12";
+                script.dataset.os = "vtx,snd,gui";
+                script.dataset.code = "import sys; exec(open('/main.py').read())";
+                document.body.appendChild(script);
+
+            } catch (error) {
+                updateStatus("Error: " + error.message);
+                console.error(error);
+            }
         };
     </script>
 </body>
