@@ -1,16 +1,38 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CivCraft Legacy</title>
-    <script src="https://pygame-web.github.io/cdn/0.9.3/pythons.js" type="module" id="site" data-python="python3.12" data-os="vtx,snd,gui" async defer></script>
+    <script src="https://pygame-web.github.io/cdn/0.9.3/browserfs.min.js"></script>
+    <script src="https://pygame-web.github.io/cdn/0.9.3/pythons.js" type="module" id="site" data-python="python3.12"
+        data-os="vtx,snd,gui" async defer></script>
     <style>
-        body { background-color: #000; margin: 0; padding: 0; overflow: hidden; }
-        #canvas { width: 100%; height: 100%; display: block; }
-        #status { color: white; text-align: center; position: absolute; width: 100%; top: 50%; z-index: 10; }
+        body {
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        #status {
+            color: white;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            font-family: sans-serif;
+        }
     </style>
 </head>
+
 <body>
     <div id="status">Cargando CivCraft Legacy...</div>
     <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="1"></canvas>
@@ -21,8 +43,10 @@
             fb_height: 720,
             cdn: "https://pygame-web.github.io/cdn/0.9.3/",
             autorun: 1,
-            ume_block: 0
+            ume_block: 0,
+            user_canvas_resizer: 1
         }
     </script>
 </body>
+
 </html>
