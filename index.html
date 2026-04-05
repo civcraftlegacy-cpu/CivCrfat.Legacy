@@ -55,17 +55,14 @@
 </head>
 
 <body>
-
     <div id="ui-layer">
         <h1>CivCraft Legacy</h1>
         <button id="start-button">¡JUGAR AHORA!</button>
-        <div id="status">Haz clic para cargar assets y arrancar el motor</div>
     </div>
 
     <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="1"></canvas>
 
     <script>
-        // Configuración del juego
         window.config = {
             archive: "migranciudad.tar",
             fb_width: 1280,
@@ -75,26 +72,20 @@
             ume_block: 0,
             user_canvas_resizer: 1
         };
+    </script>
 
-        const startButton = document.getElementById('start-button');
-        const uiLayer = document.getElementById('ui-layer');
-        const canvas = document.getElementById('canvas');
+    <script id="start-logic">
+        document.getElementById('start-button').onclick = () => {
+            document.getElementById('ui-layer').style.display = 'none';
+            document.getElementById('canvas').style.display = 'block';
 
-        startButton.onclick = () => {
-            uiLayer.style.display = 'none'; // Quitamos el botón
-            canvas.style.display = 'block'; // Mostramos el juego
-
-            // Inyectamos el motor de Python SOLO tras el clic
-            // Esto asegura el "focus set" y que BrowserFS sea encontrado
             const script = document.createElement('script');
             script.type = 'module';
-            script.id = 'site';
             script.src = "https://pygame-web.github.io/cdn/0.9.3/pythons.js";
             script.dataset.python = "python3.12";
             script.dataset.os = "vtx,snd,gui";
+            // IMPORTANTE: No le pongas id="site" al script dinámico
             document.body.appendChild(script);
-
-            console.log("Motor arrancado con éxito.");
         };
     </script>
 </body>
