@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CivCraft Legacy</title>
-    <script defer src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+    <script async src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
     <style>
         body {
             background-color: #000;
@@ -61,7 +61,12 @@
 
     <script>
         async function main() {
-            let pyodide = await loadPyodide();
+            // Esperar a que Pyodide esté cargado
+            while (typeof pyodide === 'undefined') {
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+
+            let py = await loadPyodide();
 
             document.getElementById('start-button').onclick = async () => {
                 document.getElementById('ui-layer').style.display = 'none';
