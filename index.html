@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CivCraft Legacy</title>
-    <script src="https://unpkg.com/browserfs@1.4.3/dist/browserfs.min.js"></script>
     <style>
         body {
             background-color: #000;
@@ -23,10 +22,10 @@
         #canvas {
             width: 100%;
             height: 100%;
-            display: none;
         }
 
         #ui-layer {
+            position: absolute;
             text-align: center;
             z-index: 10;
         }
@@ -39,17 +38,10 @@
             color: white;
             border: none;
             border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
         }
 
         #start-button:hover {
             background: #218838;
-        }
-
-        #status {
-            margin-top: 20px;
-            color: #aaa;
-            font-size: 14px;
         }
     </style>
 </head>
@@ -58,10 +50,8 @@
     <div id="ui-layer">
         <h1>CivCraft Legacy</h1>
         <button id="start-button">¡JUGAR AHORA!</button>
-        <div id="status"></div>
     </div>
-
-    <canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="1"></canvas>
+    <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
 
     <script>
         window.config = {
@@ -69,51 +59,50 @@
             fb_width: 1280,
             fb_height: 720,
             cdn: "https://pygame-web.github.io/cdn/0.9.3/",
-            autorun: 0,  // CAMBIAR A 0 - No auto-ejecutar sin archivo
+            autorun: 1,
             ume_block: 0,
             user_canvas_resizer: 1
         };
     </script>
 
-    <script id="start-logic">
-        const statusDiv = document.getElementById('status');
+    <script type="text/python">
+import sys
+import os
+import asyncio
 
-        function updateStatus(msg) {
-            console.log(msg);
-            statusDiv.textContent = msg;
-        }
+async def wait_for_archive():
+    """Esperar a que el tar se extraiga y ejecutar main.py"""
+    max_tries = 30
+    for attempt in range(max_tries):
+        try:
+            if os.path.exists('/main.py'):
+                print("✓ main.py encontrado, ejecutando...")
+                with open('/main.py', 'r') as f:
+                    exec(f.read())
+                return
+        except Exception as e:
+            print(f"Intento {attempt}: {e}")
+        
+        await asyncio.sleep(0.5)
+    
+    print("✗ Error: main.py no se encontró después de esperar")
+    try:
+        print("Archivos en /:", os.listdir('/'))
+    except:
+        print("No se pudo listar archivos en /")
 
-        document.getElementById('start-button').onclick = async () => {
+asyncio.run(wait_for_archive())
+    </script>
+
+    <script>
+        document.getElementById('start-button').onclick = () => {
             document.getElementById('ui-layer').style.display = 'none';
-            document.getElementById('canvas').style.display = 'block';
-
-            updateStatus("Descargando juego...");
-
-            try {
-                // Descargar el tar
-                const tarResponse = await fetch("migranciudad.tar");
-                const tarBuffer = await tarResponse.arrayBuffer();
-
-                updateStatus("Montando archivo...");
-
-                // Guardar en variable global para que Pygame lo encuentre
-                window.gameArchive = new Uint8Array(tarBuffer);
-
-                updateStatus("Cargando Pygame...");
-
-                // Cargar Pygame Web
-                const script = document.createElement('script');
-                script.type = 'module';
-                script.src = "https://pygame-web.github.io/cdn/0.9.3/pythons.js";
-                script.dataset.python = "python3.12";
-                script.dataset.os = "vtx,snd,gui";
-                script.dataset.code = "import sys; exec(open('/main.py').read())";
-                document.body.appendChild(script);
-
-            } catch (error) {
-                updateStatus("Error: " + error.message);
-                console.error(error);
-            }
+            const script = document.createElement('script');
+            script.type = 'module';
+            script.src = "https://pygame-web.github.io/cdn/0.9.3/pythons.js";
+            script.dataset.python = "python3.12";
+            script.dataset.os = "vtx,snd,gui";
+            document.body.appendChild(script);
         };
     </script>
 </body>
