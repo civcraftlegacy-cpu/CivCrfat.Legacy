@@ -1,33 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CivCraft Legacy</title>
+    <script defer src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
     <style>
         body {
             background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             overflow: hidden;
-            color: white;
-            font-family: sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
 
-        #canvas {
-            width: 100%;
-            height: 100%;
-        }
-
         #ui-layer {
-            position: absolute;
             text-align: center;
             z-index: 10;
+            position: absolute;
         }
 
         #start-button {
@@ -43,6 +39,15 @@
         #start-button:hover {
             background: #218838;
         }
+
+        #output {
+            color: #aaa;
+            margin-top: 20px;
+        }
+
+        #canvas {
+            display: none;
+        }
     </style>
 </head>
 
@@ -50,60 +55,48 @@
     <div id="ui-layer">
         <h1>CivCraft Legacy</h1>
         <button id="start-button">¡JUGAR AHORA!</button>
+        <div id="output"></div>
     </div>
-    <canvas id="canvas" oncontextmenu="event.preventDefault()"></canvas>
+    <canvas id="canvas"></canvas>
 
     <script>
-        window.config = {
-            archive: "migranciudad.tar",
-            fb_width: 1280,
-            fb_height: 720,
-            cdn: "https://pygame-web.github.io/cdn/0.9.3/",
-            autorun: 1,
-            ume_block: 0,
-            user_canvas_resizer: 1
-        };
-    </script>
+        async function main() {
+            let pyodide = await loadPyodide();
 
-    <script type="text/python">
-import sys
+            document.getElementById('start-button').onclick = async () => {
+                document.getElementById('ui-layer').style.display = 'none';
+                document.getElementById('output').textContent = 'Cargando juego...';
+
+                try {
+                    // Descargar el tar
+                    const response = await fetch('migranciudad.tar');
+                    const arrayBuffer = await response.arrayBuffer();
+
+                    // Guardar en el filesystem virtual de Pyodide
+                    const fileData = new Uint8Array(arrayBuffer);
+                    await pyodide.FS.writeFile('/tmp/migranciudad.tar', fileData);
+
+                    // Extraer el tar
+                    await pyodide.runPythonAsync(`
+import tarfile
 import os
-import asyncio
+os.chdir('/tmp')
+with tarfile.open('migranciudad.tar', 'r') as tar:
+    tar.extractall()
+print('Archivo extraído correctamente')
+                    `);
 
-async def wait_for_archive():
-    """Esperar a que el tar se extraiga y ejecutar main.py"""
-    max_tries = 30
-    for attempt in range(max_tries):
-        try:
-            if os.path.exists('/main.py'):
-                print("✓ main.py encontrado, ejecutando...")
-                with open('/main.py', 'r') as f:
-                    exec(f.read())
-                return
-        except Exception as e:
-            print(f"Intento {attempt}: {e}")
-        
-        await asyncio.sleep(0.5)
-    
-    print("✗ Error: main.py no se encontró después de esperar")
-    try:
-        print("Archivos en /:", os.listdir('/'))
-    except:
-        print("No se pudo listar archivos en /")
+                    // Ejecutar main.py
+                    const mainCode = await pyodide.FS.readFile('/tmp/main.py', { encoding: 'utf8' });
+                    await pyodide.runPythonAsync(mainCode);
 
-asyncio.run(wait_for_archive())
-    </script>
-
-    <script>
-        document.getElementById('start-button').onclick = () => {
-            document.getElementById('ui-layer').style.display = 'none';
-            const script = document.createElement('script');
-            script.type = 'module';
-            script.src = "https://pygame-web.github.io/cdn/0.9.3/pythons.js";
-            script.dataset.python = "python3.12";
-            script.dataset.os = "vtx,snd,gui";
-            document.body.appendChild(script);
-        };
+                } catch (error) {
+                    document.getElementById('output').textContent = 'Error: ' + error.message;
+                    console.error(error);
+                }
+            };
+        }
+        main();
     </script>
 </body>
 
